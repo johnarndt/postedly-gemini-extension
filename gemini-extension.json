@@ -1,0 +1,19 @@
+{
+  "name": "postedly",
+  "version": "1.0.0",
+  "description": "Send US faxes, letters, certified mail, postcards and handwritten cards with a private proof, price and approval before payment. Track existing Postedly orders.",
+  "mcpServers": {
+    "postedly": {
+      "httpUrl": "https://postedly.com/mcp/send",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "orders:read",
+          "quotes:write",
+          "checkout:write"
+        ]
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
