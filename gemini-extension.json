@@ -1,6 +1,6 @@
 {
   "name": "postedly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send US faxes, letters, certified mail, postcards and handwritten cards with a private proof, price and approval before payment. Track existing Postedly orders.",
   "mcpServers": {
     "postedly": {

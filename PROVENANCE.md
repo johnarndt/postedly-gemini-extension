@@ -8,6 +8,7 @@ The Gemini CLI distribution adds a root `gemini-extension.json`, Gemini context 
 
 - Gemini CLI 0.25.0 native extension validation passed using Node.js 24.22.1.
 - All five skill frontmatter/name checks passed, and all local reference links resolved.
+- All five skill directories passed the Hermes community security guard with zero findings and no override, using [upstream source](https://github.com/NousResearch/hermes-agent/tree/9af19cacdeaf5680a98aa75fad49433dcbcbe531). This scanner result is separate from Gemini runtime compatibility.
 - The configured Streamable HTTP and OAuth fields were checked against Gemini's current documentation and installed CLI types.
 - Postedly's public OAuth discovery metadata advertises dynamic client registration, public clients, S256 PKCE and the three requested scopes.
 

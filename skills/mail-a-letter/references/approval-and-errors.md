@@ -9,7 +9,7 @@ Shared reference for every Postedly sending skill. Load it when a tool call fail
 - The client runs the sign-in. The user verifies their email and approves scopes on Postedly's own consent page in a browser. Never ask for a password, token, authorization code or email verification code in chat.
 - Not connected? The tools `postedly_services`, `postedly_quote` and so on will be missing. Tell the user:
   - Gemini CLI: install the Postedly extension, restart the CLI, then run `/mcp auth postedly` and complete Postedly sign-in and final consent in the browser.
-  - Or send manually on the website at https://postedly.com/send .
+  - Manual preparation is available in the [Postedly sending form](https://postedly.com/send).
 - Without the connection you can still draft and check content, gather addresses and explain requirements. Never say a quote, price, proof or order exists when no tool ran.
 
 ## Sender email
